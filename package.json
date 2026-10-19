@@ -1,0 +1,10 @@
+{
+  "name": "air-resume-checker",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others --names backend,frontend \"npm --prefix backend run dev\" \"npm --prefix frontend/ai-resume-checker-ui-boilerplate-code run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

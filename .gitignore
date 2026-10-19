@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+.vercel/
+*.log
+backend/node_modules/
+frontend/node_modules/

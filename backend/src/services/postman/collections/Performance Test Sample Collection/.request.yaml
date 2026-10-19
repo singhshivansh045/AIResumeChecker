@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://localhost:5000/api/resumes
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - postman-cloud:///1f1cacac-a00a-4340-9ccd-bf33001d3cbe
+      description: ""
+      disabled: false
+order: 1000
