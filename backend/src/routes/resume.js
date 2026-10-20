@@ -345,7 +345,7 @@ router.get(
       to: { id: toV._id, label: toV.label, versionNumber: toV.versionNumber },
       parts,
       stats: summarize(parts),
-    });
+    }); 
   }),
 );
 
